@@ -20,12 +20,12 @@
 ---
 
 ## 📁 ساختار پروژه
-
+```plaintext
 MarketPlace/
-├── MarketPlace.API # Web API – کنترلرها، Middleware، Swagger
-├── MarketPlace.Application # منطق تجاری (Services, DTOs, Contracts)
-├── MarketPlace.Domain # مدل‌های دامنه، Enums، Interfaces
-├── MarketPlace.Infrastructure # DbContext، Migrations، Repositories
+├── MarketPlace.API            # Web API – کنترلرها و Swagger
+├── MarketPlace.Application    # منطق تجاری (Services, DTOs)
+├── MarketPlace.Domain         # مدل‌های دامنه، Enums و قراردادها
+├── MarketPlace.Infrastructure # EF Core DbContext و پیاده‌سازی دیتااکسس
 └── README.md
 
 ---
