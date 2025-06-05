@@ -2,7 +2,7 @@
 
 **MarketPlace** یک اپلیکیشن **Monolithic Web API** است که با هدف مدیریت محصولات، دسته‌بندی‌ها و عملیات اصلی یک فروشگاه اینترنتی طراحی و پیاده‌سازی شده است. این پروژه با معماری لایه‌ای و اصول طراحی نرم‌افزار ساخت‌یافته پیاده‌سازی شده و آماده‌ی گسترش در سطح تجاری است.
 
-این سیستم به‌عنوان یک **پلتفرم فروشگاهی پیشرفته و چندزبانه** طراحی شده که قابلیت افزودن و توسعه ماژول‌های مختلف را دارد.
+این سیستم برای یک **شرکت واقعی** در حال توسعه است و به‌عنوان یک **پلتفرم فروشگاهی پیشرفته و چندزبانه** طراحی شده که قابلیت افزودن و توسعه ماژول‌های مختلف را دارد.
 
 ---
 
@@ -20,13 +20,13 @@
 ---
 
 ## 📁 ساختار پروژه
-```plaintext
-MarketPlace/
-├── MarketPlace.API            # Web API – کنترلرها و Swagger
-├── MarketPlace.Application    # منطق تجاری (Services, DTOs)
-├── MarketPlace.Domain         # مدل‌های دامنه، Enums و قراردادها
-├── MarketPlace.Infrastructure # EF Core DbContext و پیاده‌سازی دیتااکسس
+ MarketPlace/
+├── MarketPlace.API # Web API – کنترلرها، Middleware، Swagger
+├── MarketPlace.Application # منطق تجاری (Services, DTOs, Contracts)
+├── MarketPlace.Domain # مدل‌های دامنه، Enums، Interfaces
+├── MarketPlace.Infrastructure # DbContext، Migrations، Repositories
 └── README.md
+
 
 ---
 
@@ -64,4 +64,8 @@ MarketPlace/
 > پروژه در حال توسعه فعال است و پیاده‌سازی ماژول‌های تکمیلی و زیرساخت چندزبانه در حال انجام می‌باشد.
 
 ---
+
+## 🙌 مشارکت
+
+در صورت علاقه به همکاری در توسعه یا مشاهده‌ی کد، لطفاً Pull Request ارسال کنید یا Issues مربوطه را بررسی نمایید.
 
