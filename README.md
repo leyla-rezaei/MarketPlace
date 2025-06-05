@@ -20,13 +20,15 @@
 ---
 
 ## 📁 ساختار پروژه
- MarketPlace/
-├── MarketPlace.API # Web API – کنترلرها، Middleware، Swagger
-├── MarketPlace.Application # منطق تجاری (Services, DTOs, Contracts)
-├── MarketPlace.Domain # مدل‌های دامنه، Enums، Interfaces
+
+```
+MarketPlace/
+├── MarketPlace.API            # Web API – کنترلرها، Middleware، Swagger
+├── MarketPlace.Application    # منطق تجاری (Services, DTOs, Contracts)
+├── MarketPlace.Domain         # مدل‌های دامنه، Enums، Interfaces
 ├── MarketPlace.Infrastructure # DbContext، Migrations، Repositories
 └── README.md
-
+```
 
 ---
 
@@ -64,8 +66,3 @@
 > پروژه در حال توسعه فعال است و پیاده‌سازی ماژول‌های تکمیلی و زیرساخت چندزبانه در حال انجام می‌باشد.
 
 ---
-
-## 🙌 مشارکت
-
-در صورت علاقه به همکاری در توسعه یا مشاهده‌ی کد، لطفاً Pull Request ارسال کنید یا Issues مربوطه را بررسی نمایید.
-
